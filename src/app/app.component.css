@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand: #ff4d29;
+  --dark: #092032;
+  --body: #516171;
+  --border: rgba(0,0,0,0.08);
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: var(--body);
+  line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-1,.display-2,.display-3,.display-4 {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--dark);
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--brand);
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text-brand {
+  color: var(--brand) !important;
+}
+.top-nav{
+  background-color: #ff4d29;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top-nav p{
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: #ffffff;
+}
+.top-nav i,.top-nav span{
+  vertical-align: middle;
+}
+.navbar {
+  box-shadow: var(--shadow);
+}
+.social-icons a{
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
